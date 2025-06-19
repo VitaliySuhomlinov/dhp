@@ -6,3 +6,8 @@
 
 ```bash
 go get github.com/VitaliySuhomlinov/dhp@latest
+
+## Импорт
+``` go
+import "github.com/VitaliySuhomlinov/dhp"
+```
