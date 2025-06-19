@@ -15,7 +15,7 @@ func VarExport(value interface{}) {
 // -----[ PRINT HELPERS ]-----
 // Sleep - более лаконичная обертка 
 func Sleep(countSeconds int) {
-	time.Sleep(countSeconds * time.Second)
+	time.Sleep(time.Duration(countSeconds1) * time.Second)
 }
 
 func Dump(value interface{}) {
