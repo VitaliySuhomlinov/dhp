@@ -18,6 +18,8 @@ func Sleep(countSeconds int) {
 	time.Sleep(time.Duration(countSeconds) * time.Second)
 }
 
+// -----[ PRINT HELPERS ]-----
+// Dump - более лаконичная обертка 
 func Dump(value interface{}) {
 	spew.Dump(value)
 }
